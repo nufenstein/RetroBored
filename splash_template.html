@@ -1,0 +1,17 @@
+<template name="splash">
+  <div class="splash">
+    <div class="splash-container when-mobile-splash">
+
+      {{#if currentUser}}
+
+      {{> meeting}}
+
+      {{else}}
+      <h2>Welcome to RetroBored!</h2>
+      <p>Please sign in below</p>
+      <div class="login-buttons">  {{> loginButtons}}
+      </div>
+      {{/if}}
+  </div>
+  </div>
+</template>

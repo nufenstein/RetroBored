@@ -1,0 +1,14 @@
+<template name="main">
+  <head>
+  <title>RetroBored</title>
+  <link rel="stylesheet" media="screen" href="http:////fonts.googleapis.com/css?family=Raleway:400,300,500,600" type="text/css"/>
+  <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+</head>
+<body>
+  <div class="nav">
+    <a class="nav-title" href="/">RetroBored</a><span class ="logout">{{#if currentUser}}{{> loginButtons}}{{/if}}</span>
+
+  </div>
+  {{> yield}}
+</body>
+</template>

@@ -1,0 +1,356 @@
+/* CSS declarations go here */
+body {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+.retro-background {
+  position: absolute;
+  display: block;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: url( http://s10.postimg.org/g5897hc15/natural_821568_blur.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.splash {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(http://s22.postimg.org/ppomf5oo1/natural_821568.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wrapper {
+  width: 90%;
+  height: 100%;
+  max-width: 1400px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: auto;
+}
+
+.nav {
+  font-size: 1.25em;
+  color: white;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #13073A;
+}
+
+.nav-title {
+  float: left;
+  padding-left: 5%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logout {
+  float: right;
+  padding-right: 5%;
+  font-size: .5em;
+}
+
+.splash-container {
+  width: 60%;
+  min-height: 45%;
+  position: relative;
+  display: block;
+  top:0;
+  bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: auto;
+  margin-top: 90px;
+  background: rgba(19,7,58,0.825);
+  color: #FFFFFF;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  padding: 2%;
+}
+
+.splash-container p {
+  font-size: .75em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.splash-container h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.splash-container h3 {
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: normal;
+}
+
+input[type=text] {
+color: #FFFFFF;
+}
+
+.past-meetings-list {
+  font-size: .75em;
+  width: 90%;
+  margin: 5%;
+  margin-top: 15px;
+  border-top: solid #D8D8D8;
+}
+
+.past-meetings {
+  display:inline-block;
+  width: 100%;
+  padding: 10px;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.past-meetings a {
+  color: #FFFFFF
+}
+
+
+.meeting-date {
+  float: right;
+  padding-right: 50px;
+}
+
+.login-buttons {
+  width: 60%;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-size: 1em;
+}
+
+.list {
+  border:0;
+  display: block;
+  margin-bottom: 20px;
+  width:31.6%;
+  min-height: 300px;
+  min-width: 320px;
+  background: rgba(19,7,58,0.825);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 6px -6px rgba(19,7,58,1);
+  -moz-box-shadow: 0 10px 6px -6px rgba(19,7,58,1);
+  box-shadow: 0 10px 6px -6px rgba(19,7,58,1);
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.issues {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gutter {
+  min-width: 15px;
+  display: inline-block;
+}
+
+.each-issue {
+  width: 95%;
+  display: block;
+  color: #D8D8D8;
+  padding: 10px;
+}
+
+.votes {
+  text-align: center;
+  vertical-align: center;
+  font-size: .65em;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.submit-vote {
+  cursor: pointer;
+  cursor: hand;
+  animation: flash;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.submitted-item {
+  display: block;
+  margin-bottom: 20px;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.submitter {
+  font-size: .70em;
+}
+
+.action-items {
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.header {
+  background: #615192;
+  color: #FFFFFF;
+  height: auto;
+  padding: 5px;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.new-issue input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  padding-left: 10px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  font-size: .75em;
+}
+
+.delete {
+  float: right;
+  background: none;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+  color: #D8D8D8;
+}
+
+.feedback {
+  color: #FFFFFF;
+}
+
+.new-issue input:focus{
+  outline: 0;
+}
+
+.go-back a {
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.go-back {
+  font-size: .65em;
+  color: #FFFFFF;
+  font-weight: normal;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+@media (min-width:601px) {
+    .desktop-only {
+        display:block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .mobile-only {
+        display:block;
+    }
+
+    .when-mobile {
+      width: 100%;
+      display: block;
+      position: relative;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .when-mobile-splash {
+      width: 90%;
+      display: block;
+      margin: 2.5%;
+    }
+
+    .when-mobile-votes {
+      font-size: 1em;
+    }
+
+    .desktop-only {
+        display:none;
+    }
+}

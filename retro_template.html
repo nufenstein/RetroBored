@@ -1,0 +1,67 @@
+<template name="retro">
+  <div class="retro-background">
+  <div class="wrapper">
+  <div class="go-back"><span><a href="/">Home</a></span>  »  {{meetingname}}  »  {{createdAt}}</div>
+
+  <div class="good issues list when-mobile">
+  <div class="header">
+    <p>What went Well</p>
+  </div>
+  <form class="new-issue">
+    <input type="text" autocomplete="off" name="text" placeholder=" Add something here..." />
+  </form>
+  <div class="each-issue">
+  {{#each goodissues}}
+    {{> goodissue}}
+  {{/each}}
+  </div>
+</div>
+
+<div class="gutter"></div>
+
+<div class="ok issues list when-mobile">
+  <div class="header">
+    <p>What could be Better</p>
+  </div>
+  <form class="new-issue">
+    <input type="text" autocomplete="off" name="text" placeholder=" Add something here..." />
+  </form>
+  <div class="each-issue">
+  {{#each okissues}}
+    {{> okissue}}
+  {{/each}}
+  </div>
+</div>
+
+<div class="gutter"></div>
+
+<div class="bad issues list when-mobile">
+  <div class="header">
+    <p>What needs to Change</p>
+  </div>
+  <form class="new-issue">
+    <input type="text" autocomplete="off" name="text" placeholder=" Add something here..." />
+  </form>
+  <div class="each-issue">
+  {{#each badissues}}
+    {{> badissue}}
+  {{/each}}
+  </div>
+</div>
+
+<div class="action-items list">
+  <div class="header">
+    <p>Action Items</p>
+  </div>
+  <form class="new-issue action-item">
+    <input type="text" autocomplete="off" name="text" placeholder=" Add something here..." />
+  </form>
+  <div class="new-issue">
+    {{#each actionitems}}
+      {{> actionitem}}
+    {{/each}}
+  </div>
+</div>
+</div>
+</div>
+</template>

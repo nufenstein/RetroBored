@@ -1,0 +1,13 @@
+<template name="meeting">
+    <h2>Welcome to RetroBored</h2>
+    {{> addmeeting}}
+
+    <div class="past-meetings-list">
+      <h3>Revisit Past Retros</h3>
+        {{#each meetings}}
+            <div class="past-meetings">
+              <a href="/retro/{{_id}}">{{meetingname}}</a><button class="delete">❌</button><span class="meeting-date">{{createdAt}}</span>
+            </div>
+        {{/each}}
+    </div>
+</template>
