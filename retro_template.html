@@ -1,5 +1,6 @@
 <template name="retro">
   <div class="retro-background">
+  {{#if currentUser}}
   <div class="wrapper">
   <div class="go-back"><span><a href="/">Home</a></span>  »  {{meetingname}}  »  {{createdAt}}</div>
 
@@ -63,5 +64,13 @@
   </div>
 </div>
 </div>
+{{else}}
+<div class="splash-container when-mobile-splash">
+  <h2>Welcome to RetroBored!</h2>
+  <p>Please sign in below to view this list</p>
+  <div class="login-buttons">  {{> loginButtons}}
+  </div>
+</div>
+{{/if}}
 </div>
 </template>
