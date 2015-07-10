@@ -1,15 +1,18 @@
 <template name="okissue">
-  <div class="votes">
-    <div class="submit-vote up"> ▲ </div>
-    <div class="points">{{points}}</div>
-    <div class="submit-vote down"> ▼ </div>
-  </div>
-  <div class="submitted-item">
-    <div class="submitter">
-      <p>{{username}} thinks that <button class="delete">❌</button></p>
+  <div class="issue">
+    <div class="votes">
+      <div class="submit-vote up"> ▲ </div>
+      <div class="points">{{points}}</div>
+      <div class="submit-vote down"> ▼ </div>
     </div>
-    <div class="feedback">{{text}}</div>
-  </div>
-  <div class="footer">
+    <div class="submitted-item">
+      <div class="submitter">
+        <p>{{username}} thinks that <button class="delete">❌</button></p>
+      </div>
+      <div class="feedback">{{text}}
+      </div>
+    </div>
+    <div class="footer">
+    </div>
   </div>
 </template>
